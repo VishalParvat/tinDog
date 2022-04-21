@@ -1,0 +1,154 @@
+#title{
+    background-color: #ff4c68;
+}
+
+*{
+    font-family: 'Montserrat'; 
+}
+
+.header h1{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+.container-fluid{
+    padding: 3% 15%!important;
+    overflow: hidden;
+}
+.outlinerBtn{
+    margin-left:1rem;
+}
+
+.navbar .navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.navbar .nav-item{
+    margin: 0rem 1rem;
+    font-size: 1.2rem;
+}
+nav{
+    padding-left: 0px!important;
+}
+.header{
+    margin-top: 5rem;
+}
+.header img{
+    transform: rotate(30deg);
+    width: 60%;
+    position: absolute;
+}
+
+.fa-solid{
+    font-size: 4rem;
+    color: #ef8172;
+}
+.fa-solid:hover{
+    color: #ff4c68;
+    cursor: pointer;
+}
+
+#features .col-lg-4{
+    margin: 10% 0%;
+    font-family: 'Montserrat'; 
+}
+#feature-row h3{
+    font-weight: 700;
+    padding-top: 1rem;
+}
+#feature-row p{
+    color: gray;
+}
+
+
+#testimonial {
+    background-color: #ef8172 ;
+    text-align: center;
+    color: white;
+    padding: 7% 0;
+}
+#testimonial h2{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+}
+#testimonial img{
+    width: 10%;
+    border-radius: 100%;
+    padding-top: 2rem;
+
+}
+#press{
+    background-color: #ef8172;
+    padding-bottom: 2%;
+}
+#press .press-logo{
+    width: 24%;
+    padding: 2% 5%;
+}
+
+#pricing h2{
+    font-weight: 900;
+    text-align: center;
+    font-size: 3rem;
+}
+#pricing h3{
+    font-weight: 900;
+    text-align: center;
+}
+#pricing p{
+    color: gray;
+    text-align: center;
+}
+#pricing btn{
+    text-align: center;
+}
+#pricing .content{
+    padding: 5% 0%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 10%;
+}
+#cta .container{
+    
+    text-align: center;
+}
+#cta .container h3{
+    color: #fff;
+    font-family: 'montserrat';
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 7%;
+}
+#footer .social-icons .fa-brands{
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+
+@media(max-width:1150px){
+    .header img{
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+        margin-top: 3%;
+    }
+    .header{
+        text-align: center;
+    }
+    .header .btn .outlinerBtn{
+        margin-top: 2rem;
+    }
+
+
+}
